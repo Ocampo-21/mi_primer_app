@@ -1,17 +1,10 @@
-# myapp1
+# Mi primera aplicación Flutter
 
-A new Flutter project.
+Proyecto desarrollado como parte del proceso de instalación y configuración de Flutter.
 
-## Getting Started
+## Instalación
 
-This project is a starting point for a Flutter application.
+Para comprobar que Flutter está correctamente instalado y configurado, se ejecutó el siguiente comando en la terminal:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter doctor
