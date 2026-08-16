@@ -1,0 +1,40 @@
+[
+  {
+    "id": "of-001",
+    "nombreProducto": "Yogur de fresa",
+    "descripcion": "Yogur próximo a vencer, conservado en refrigeración.",
+    "categoria": "Lácteos",
+    "precioOriginal": { "valor": 5000, "moneda": "COP" },
+    "precioOferta": { "valor": 3000, "moneda": "COP" },
+    "cantidadDisponible": 10,
+    "fechaVencimiento": "2026-08-20T23:59:59Z",
+    "estado": { "tipo": "disponible", "cantidadDisponible": 10 },
+    "fotos": ["assets/images/yogur1.png"]
+  },
+  {
+    "id": "of-002",
+    "nombreProducto": "Pan integral",
+    "categoria": "Panadería",
+    "precioOriginal": { "valor": 8000, "moneda": "COP" },
+    "precioOferta": { "valor": 4500, "moneda": "COP" },
+    "cantidadDisponible": 5,
+    "fechaVencimiento": "2026-08-18T23:59:59Z",
+    "estado": {
+      "tipo": "reservada",
+      "reservadaPor": "cliente-001",
+      "reservadaEn": "2026-08-15T23:00:00Z"
+    }
+  },
+  {
+    "id": "of-003",
+    "nombreProducto": "Ensalada de frutas",
+    "descripcion": "Ensalada preparada del día anterior.",
+    "categoria": "Comidas preparadas",
+    "precioOriginal": { "valor": 12000, "moneda": "COP" },
+    "precioOferta": { "valor": 6000, "moneda": "COP" },
+    "cantidadDisponible": 0,
+    "fechaVencimiento": "2026-08-15T23:59:59Z",
+    "estado": { "tipo": "vencida", "vencidaEn": "2026-08-16T00:00:00Z" },
+    "fotos": ["assets/images/ensalada1.png"]
+  }
+]
